@@ -1,0 +1,397 @@
+[
+  {
+    "name": "The New York Times",
+    "domain": "nytimes.com",
+    "country": "US",
+    "rss": [
+      "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml"
+    ],
+    "weight": 100
+  },
+  {
+    "name": "The Washington Post",
+    "domain": "washingtonpost.com",
+    "country": "US",
+    "rss": [
+      "https://feeds.washingtonpost.com/rss/world",
+      "https://feeds.washingtonpost.com/rss/politics"
+    ],
+    "weight": 95
+  },
+  {
+    "name": "The Wall Street Journal",
+    "domain": "wsj.com",
+    "country": "US",
+    "rss": [
+      "https://feeds.a.dj.com/rss/RSSWorldNews.xml",
+      "https://feeds.a.dj.com/rss/WSJcomUSBusiness.xml"
+    ],
+    "weight": 94
+  },
+  {
+    "name": "Bloomberg",
+    "domain": "bloomberg.com",
+    "country": "US",
+    "rss": [
+      "https://news.google.com/rss/search?q=site:bloomberg.com&hl=en-US&gl=US&ceid=US:en"
+    ],
+    "weight": 93
+  },
+  {
+    "name": "Financial Times",
+    "domain": "ft.com",
+    "country": "UK",
+    "rss": [
+      "https://www.ft.com/rss/home"
+    ],
+    "weight": 92
+  },
+  {
+    "name": "The Guardian",
+    "domain": "theguardian.com",
+    "country": "UK",
+    "rss": [
+      "https://www.theguardian.com/world/rss"
+    ],
+    "weight": 91
+  },
+  {
+    "name": "The Telegraph",
+    "domain": "telegraph.co.uk",
+    "country": "UK",
+    "rss": [
+      "https://www.telegraph.co.uk/rss.xml"
+    ],
+    "weight": 87
+  },
+  {
+    "name": "The Economist",
+    "domain": "economist.com",
+    "country": "UK",
+    "rss": [
+      "https://www.economist.com/rss"
+    ],
+    "weight": 90
+  },
+  {
+    "name": "Reuters",
+    "domain": "reuters.com",
+    "country": "US",
+    "rss": [
+      "https://news.google.com/rss/search?q=site:reuters.com&hl=en-US&gl=US&ceid=US:en"
+    ],
+    "weight": 89
+  },
+  {
+    "name": "The Atlantic",
+    "domain": "theatlantic.com",
+    "country": "US",
+    "rss": [
+      "https://www.theatlantic.com/feed/all/"
+    ],
+    "weight": 85
+  },
+  {
+    "name": "Wired",
+    "domain": "wired.com",
+    "country": "US",
+    "rss": [
+      "https://www.wired.com/feed/rss"
+    ],
+    "weight": 82
+  },
+  {
+    "name": "The New Yorker",
+    "domain": "newyorker.com",
+    "country": "US",
+    "rss": [
+      "https://www.newyorker.com/feed/everything"
+    ],
+    "weight": 84
+  },
+  {
+    "name": "Vanity Fair",
+    "domain": "vanityfair.com",
+    "country": "US",
+    "rss": [
+      "https://www.vanityfair.com/feed/rss"
+    ],
+    "weight": 72
+  },
+  {
+    "name": "Business Insider",
+    "domain": "businessinsider.com",
+    "country": "US",
+    "rss": [
+      "https://www.businessinsider.com/rss"
+    ],
+    "weight": 80
+  },
+  {
+    "name": "Forbes",
+    "domain": "forbes.com",
+    "country": "US",
+    "rss": [],
+    "weight": 78
+  },
+  {
+    "name": "Los Angeles Times",
+    "domain": "latimes.com",
+    "country": "US",
+    "rss": [
+      "https://www.latimes.com/world-nation/rss2.0.xml"
+    ],
+    "weight": 76
+  },
+  {
+    "name": "Chicago Tribune",
+    "domain": "chicagotribune.com",
+    "country": "US",
+    "rss": [],
+    "weight": 70
+  },
+  {
+    "name": "The Boston Globe",
+    "domain": "bostonglobe.com",
+    "country": "US",
+    "rss": [],
+    "weight": 68
+  },
+  {
+    "name": "San Francisco Chronicle",
+    "domain": "sfchronicle.com",
+    "country": "US",
+    "rss": [],
+    "weight": 64
+  },
+  {
+    "name": "The Irish Times",
+    "domain": "irishtimes.com",
+    "country": "IE",
+    "rss": [
+      "https://www.irishtimes.com/cmlink/the-irish-times-news-feed-1.1837497"
+    ],
+    "weight": 60
+  },
+  {
+    "name": "El País",
+    "domain": "elpais.com",
+    "country": "ES",
+    "rss": [
+      "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/portada"
+    ],
+    "weight": 75
+  },
+  {
+    "name": "Le Monde",
+    "domain": "lemonde.fr",
+    "country": "FR",
+    "rss": [
+      "https://www.lemonde.fr/rss/une.xml"
+    ],
+    "weight": 77
+  },
+  {
+    "name": "Le Figaro",
+    "domain": "lefigaro.fr",
+    "country": "FR",
+    "rss": [
+      "https://www.lefigaro.fr/rss/figaro_actualites.xml"
+    ],
+    "weight": 65
+  },
+  {
+    "name": "Libération",
+    "domain": "liberation.fr",
+    "country": "FR",
+    "rss": [
+      "https://www.liberation.fr/arc/outboundfeeds/rss-all/collection/accueil-une/"
+    ],
+    "weight": 62
+  },
+  {
+    "name": "Süddeutsche Zeitung",
+    "domain": "sueddeutsche.de",
+    "country": "DE",
+    "rss": [
+      "https://rss.sueddeutsche.de/rss/Topthemen"
+    ],
+    "weight": 63
+  },
+  {
+    "name": "Der Spiegel",
+    "domain": "spiegel.de",
+    "country": "DE",
+    "rss": [
+      "https://www.spiegel.de/schlagzeilen/tops/index.rss"
+    ],
+    "weight": 74
+  },
+  {
+    "name": "Die Zeit",
+    "domain": "zeit.de",
+    "country": "DE",
+    "rss": [
+      "https://newsfeed.zeit.de/index"
+    ],
+    "weight": 66
+  },
+  {
+    "name": "Corriere della Sera",
+    "domain": "corriere.it",
+    "country": "IT",
+    "rss": [
+      "https://xml2.corriereobjects.it/rss/homepage.xml"
+    ],
+    "weight": 61
+  },
+  {
+    "name": "La Repubblica",
+    "domain": "repubblica.it",
+    "country": "IT",
+    "rss": [
+      "https://www.repubblica.it/rss/homepage/rss2.0.xml"
+    ],
+    "weight": 59
+  },
+  {
+    "name": "The Globe and Mail",
+    "domain": "theglobeandmail.com",
+    "country": "CA",
+    "rss": [
+      "https://www.theglobeandmail.com/arc/outboundfeeds/rss/category/world/"
+    ],
+    "weight": 58
+  },
+  {
+    "name": "The Sydney Morning Herald",
+    "domain": "smh.com.au",
+    "country": "AU",
+    "rss": [
+      "https://www.smh.com.au/rss/feed.xml"
+    ],
+    "weight": 57
+  },
+  {
+    "name": "The Age",
+    "domain": "theage.com.au",
+    "country": "AU",
+    "rss": [
+      "https://www.theage.com.au/rss/feed.xml"
+    ],
+    "weight": 50
+  },
+  {
+    "name": "Nikkei Asia",
+    "domain": "asia.nikkei.com",
+    "country": "JP",
+    "rss": [],
+    "weight": 55
+  },
+  {
+    "name": "South China Morning Post",
+    "domain": "scmp.com",
+    "country": "HK",
+    "rss": [
+      "https://www.scmp.com/rss/91/feed"
+    ],
+    "weight": 73
+  },
+  {
+    "name": "The Straits Times",
+    "domain": "straitstimes.com",
+    "country": "SG",
+    "rss": [
+      "https://www.straitstimes.com/news/world/rss.xml"
+    ],
+    "weight": 52
+  },
+  {
+    "name": "Foreign Policy",
+    "domain": "foreignpolicy.com",
+    "country": "US",
+    "rss": [
+      "https://foreignpolicy.com/feed/"
+    ],
+    "weight": 69
+  },
+  {
+    "name": "Barron's",
+    "domain": "barrons.com",
+    "country": "US",
+    "rss": [],
+    "weight": 67
+  },
+  {
+    "name": "MIT Technology Review",
+    "domain": "technologyreview.com",
+    "country": "US",
+    "rss": [
+      "https://www.technologyreview.com/feed/"
+    ],
+    "weight": 71
+  },
+  {
+    "name": "Ars Technica",
+    "domain": "arstechnica.com",
+    "country": "US",
+    "rss": [
+      "https://feeds.arstechnica.com/arstechnica/index"
+    ],
+    "weight": 79
+  },
+  {
+    "name": "The Verge",
+    "domain": "theverge.com",
+    "country": "US",
+    "rss": [
+      "https://www.theverge.com/rss/index.xml"
+    ],
+    "weight": 81
+  },
+  {
+    "name": "Quartz",
+    "domain": "qz.com",
+    "country": "US",
+    "rss": [
+      "https://qz.com/feed"
+    ],
+    "weight": 56
+  },
+  {
+    "name": "The Daily Beast",
+    "domain": "thedailybeast.com",
+    "country": "US",
+    "rss": [
+      "https://feeds.thedailybeast.com/rss/articles"
+    ],
+    "weight": 54
+  },
+  {
+    "name": "Slate",
+    "domain": "slate.com",
+    "country": "US",
+    "rss": [
+      "https://slate.com/feeds/all.rss"
+    ],
+    "weight": 53
+  },
+  {
+    "name": "The Nation",
+    "domain": "thenation.com",
+    "country": "US",
+    "rss": [
+      "https://www.thenation.com/feed/"
+    ],
+    "weight": 48
+  },
+  {
+    "name": "Haaretz",
+    "domain": "haaretz.com",
+    "country": "IL",
+    "rss": [
+      "https://www.haaretz.com/cmlink/1.4614230"
+    ],
+    "weight": 51
+  }
+]

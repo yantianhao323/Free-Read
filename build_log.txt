@@ -1,0 +1,226 @@
+
+Welcome to Gradle 8.13!
+
+Here are the highlights of this release:
+ - Daemon JVM auto-provisioning
+ - Enhancements for Scala plugin and JUnit testing
+ - Improvements for build authors and plugin developers
+
+For more details see https://docs.gradle.org/8.13/release-notes.html
+
+
+> Configure project :app
+WARNING: The option setting 'android.overridePathCheck=true' is experimental.
+The current default is 'false'.
+
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preFdroidDebugBuild UP-TO-DATE
+> Task :app:mergeFdroidDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:generateFdroidDebugBuildConfig
+> Task :app:processFdroidDebugNavigationResources
+> Task :app:checkFdroidDebugAarMetadata
+> Task :app:compileFdroidDebugNavigationResources
+> Task :app:generateFdroidDebugResValues
+> Task :app:collectDependencies UP-TO-DATE
+> Task :app:prepareLibraryDefinitionsFdroidDebug
+> Task :app:mapFdroidDebugSourceSetPaths
+> Task :app:extractFdroidDebugSupportedLocales
+> Task :app:generateFdroidDebugLocaleConfig
+> Task :app:generateFdroidDebugResources
+> Task :app:mergeFdroidDebugResources
+> Task :app:packageFdroidDebugResources
+> Task :app:createFdroidDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksFdroidDebug
+> Task :app:parseFdroidDebugLocalResources
+> Task :app:processFdroidDebugMainManifest
+> Task :app:processFdroidDebugManifest
+> Task :app:preGithubDebugBuild UP-TO-DATE
+> Task :app:generateGithubDebugBuildConfig UP-TO-DATE
+> Task :app:javaPreCompileFdroidDebug
+> Task :app:checkGithubDebugAarMetadata UP-TO-DATE
+> Task :app:processGithubDebugNavigationResources UP-TO-DATE
+> Task :app:compileGithubDebugNavigationResources UP-TO-DATE
+> Task :app:generateGithubDebugResValues UP-TO-DATE
+> Task :app:prepareLibraryDefinitionsGithubDebug UP-TO-DATE
+> Task :app:mapGithubDebugSourceSetPaths UP-TO-DATE
+> Task :app:extractGithubDebugSupportedLocales UP-TO-DATE
+> Task :app:generateGithubDebugLocaleConfig UP-TO-DATE
+> Task :app:generateGithubDebugResources UP-TO-DATE
+> Task :app:mergeGithubDebugResources UP-TO-DATE
+> Task :app:packageGithubDebugResources UP-TO-DATE
+> Task :app:parseGithubDebugLocalResources UP-TO-DATE
+> Task :app:createGithubDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksGithubDebug UP-TO-DATE
+> Task :app:processGithubDebugMainManifest
+> Task :app:processGithubDebugManifest
+> Task :app:javaPreCompileGithubDebug UP-TO-DATE
+> Task :app:preGooglePlayDebugBuild UP-TO-DATE
+> Task :app:generateGooglePlayDebugBuildConfig
+> Task :app:processGooglePlayDebugNavigationResources
+> Task :app:checkGooglePlayDebugAarMetadata
+> Task :app:compileGooglePlayDebugNavigationResources
+> Task :app:generateGooglePlayDebugResValues
+> Task :app:prepareLibraryDefinitionsGooglePlayDebug
+> Task :app:processFdroidDebugManifestForPackage
+> Task :app:mapGooglePlayDebugSourceSetPaths
+> Task :app:extractGooglePlayDebugSupportedLocales
+> Task :app:generateGooglePlayDebugLocaleConfig
+> Task :app:generateGooglePlayDebugResources
+> Task :app:processFdroidDebugResources
+> Task :app:mergeGooglePlayDebugResources
+> Task :app:packageGooglePlayDebugResources
+> Task :app:createGooglePlayDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksGooglePlayDebug
+> Task :app:parseGooglePlayDebugLocalResources
+> Task :app:processGooglePlayDebugMainManifest
+> Task :app:processGooglePlayDebugManifest
+> Task :app:processGooglePlayDebugManifestForPackage
+> Task :app:javaPreCompileGooglePlayDebug
+> Task :app:mergeFdroidDebugShaders
+> Task :app:compileFdroidDebugShaders NO-SOURCE
+> Task :app:generateFdroidDebugAssets UP-TO-DATE
+> Task :app:mergeFdroidDebugAssets
+> Task :app:compressFdroidDebugAssets
+> Task :app:desugarFdroidDebugFileDependencies
+> Task :app:mergeFdroidDebugJniLibFolders
+> Task :app:validateSigningFdroidDebug
+> Task :app:writeFdroidDebugAppMetadata
+> Task :app:writeFdroidDebugSigningConfigVersions
+> Task :app:mergeGithubDebugNativeDebugMetadata NO-SOURCE
+> Task :app:mergeGithubDebugShaders UP-TO-DATE
+> Task :app:compileGithubDebugShaders NO-SOURCE
+> Task :app:generateGithubDebugAssets UP-TO-DATE
+> Task :app:mergeFdroidDebugNativeLibs
+> Task :app:mergeGithubDebugAssets UP-TO-DATE
+> Task :app:compressGithubDebugAssets UP-TO-DATE
+> Task :app:checkGithubDebugDuplicateClasses UP-TO-DATE
+> Task :app:desugarGithubDebugFileDependencies UP-TO-DATE
+
+> Task :app:stripFdroidDebugDebugSymbols
+Unable to strip the following libraries, packaging them as they are: libandroidx.graphics.path.so, libdatastore_shared_counter.so. Run with --info option to learn more.
+
+> Task :app:mergeExtDexGithubDebug UP-TO-DATE
+> Task :app:checkFdroidDebugDuplicateClasses
+> Task :app:mergeLibDexGithubDebug UP-TO-DATE
+> Task :app:mergeGithubDebugJniLibFolders UP-TO-DATE
+> Task :app:mergeGithubDebugNativeLibs UP-TO-DATE
+> Task :app:stripGithubDebugDebugSymbols UP-TO-DATE
+> Task :app:validateSigningGithubDebug UP-TO-DATE
+> Task :app:writeGithubDebugAppMetadata UP-TO-DATE
+> Task :app:writeGithubDebugSigningConfigVersions UP-TO-DATE
+> Task :app:mergeGooglePlayDebugNativeDebugMetadata NO-SOURCE
+> Task :app:mergeGooglePlayDebugShaders
+> Task :app:compileGooglePlayDebugShaders NO-SOURCE
+> Task :app:generateGooglePlayDebugAssets UP-TO-DATE
+> Task :app:mergeLibDexFdroidDebug
+> Task :app:mergeGooglePlayDebugAssets
+> Task :app:compressGooglePlayDebugAssets
+> Task :app:desugarGooglePlayDebugFileDependencies
+> Task :app:mergeGooglePlayDebugJniLibFolders
+> Task :app:validateSigningGooglePlayDebug
+> Task :app:writeGooglePlayDebugAppMetadata
+> Task :app:writeGooglePlayDebugSigningConfigVersions
+> Task :app:checkGooglePlayDebugDuplicateClasses
+> Task :app:processGithubDebugManifestForPackage
+> Task :app:mergeGooglePlayDebugNativeLibs
+
+> Task :app:stripGooglePlayDebugDebugSymbols
+Unable to strip the following libraries, packaging them as they are: libandroidx.graphics.path.so, libdatastore_shared_counter.so. Run with --info option to learn more.
+
+> Task :app:mergeLibDexGooglePlayDebug
+> Task :app:processGithubDebugResources
+> Task :app:processGooglePlayDebugResources
+
+> Task :app:kspFdroidDebugKotlin
+w: [ksp] feedId column references a foreign key but it is not part of an index. This may trigger full table scans whenever parent table is modified so you are highly advised to create an index that covers this column.
+
+> Task :app:mergeExtDexFdroidDebug
+> Task :app:mergeExtDexGooglePlayDebug
+
+> Task :app:kspGithubDebugKotlin
+w: [ksp] feedId column references a foreign key but it is not part of an index. This may trigger full table scans whenever parent table is modified so you are highly advised to create an index that covers this column.
+
+> Task :app:kspFdroidDebugKotlin FAILED
+e: [ksp] InjectProcessingStep was unable to process 'LocalRssService(java.util.stream.SliceOps$1@63ead0fb, ...)' because 'RssHelper' could not be resolved.
+
+Dependency trace:
+    => element (CLASS): me.ash.reader.domain.service.LocalRssService
+    => element (CONSTRUCTOR): LocalRssService(java.util.stream.SliceOps$1@4e2e43df, ...)
+    => type (EXECUTABLE constructor): (android.content.Context,me.ash.reader.domain.repository.ArticleDao,me.ash.reader.domain.repository.FeedDao,RssHelper,me.ash.reader.infrastructure.android.NotificationHelper,me.ash.reader.domain.repository.GroupDao,kotlinx.coroutines.CoroutineDispatcher,kotlinx.coroutines.CoroutineDispatcher,androidx.work.WorkManager,me.ash.reader.domain.service.AccountService,me.ash.reader.domain.data.SyncLogger,me.ash.reader.domain.service.bypass.BypassPrefetcher)void
+    => type (ERROR parameter type): RssHelper
+
+If type 'RssHelper' is a generated type, check above for compilation errors that may have prevented the type from being generated. Otherwise, ensure that type 'RssHelper' is on your classpath.
+
+> Task :app:kspGooglePlayDebugKotlin
+w: [ksp] feedId column references a foreign key but it is not part of an index. This may trigger full table scans whenever parent table is modified so you are highly advised to create an index that covers this column.
+e: [ksp] InjectProcessingStep was unable to process 'LocalRssService(java.util.stream.SliceOps$1@4aaa7585, ...)' because 'RssHelper' could not be resolved.
+
+Dependency trace:
+    => element (CLASS): me.ash.reader.domain.service.LocalRssService
+    => element (CONSTRUCTOR): LocalRssService(java.util.stream.SliceOps$1@2bccd311, ...)
+    => type (EXECUTABLE constructor): (android.content.Context,me.ash.reader.domain.repository.ArticleDao,me.ash.reader.domain.repository.FeedDao,RssHelper,me.ash.reader.infrastructure.android.NotificationHelper,me.ash.reader.domain.repository.GroupDao,kotlinx.coroutines.CoroutineDispatcher,kotlinx.coroutines.CoroutineDispatcher,androidx.work.WorkManager,me.ash.reader.domain.service.AccountService,me.ash.reader.domain.data.SyncLogger,me.ash.reader.domain.service.bypass.BypassPrefetcher)void
+    => type (ERROR parameter type): RssHelper
+
+If type 'RssHelper' is a generated type, check above for compilation errors that may have prevented the type from being generated. Otherwise, ensure that type 'RssHelper' is on your classpath.
+
+> Task :app:kspGithubDebugKotlin FAILED
+e: [ksp] InjectProcessingStep was unable to process 'LocalRssService(java.util.stream.SliceOps$1@7f74d4ff, ...)' because 'RssHelper' could not be resolved.
+
+Dependency trace:
+    => element (CLASS): me.ash.reader.domain.service.LocalRssService
+    => element (CONSTRUCTOR): LocalRssService(java.util.stream.SliceOps$1@11acd1e0, ...)
+    => type (EXECUTABLE constructor): (android.content.Context,me.ash.reader.domain.repository.ArticleDao,me.ash.reader.domain.repository.FeedDao,RssHelper,me.ash.reader.infrastructure.android.NotificationHelper,me.ash.reader.domain.repository.GroupDao,kotlinx.coroutines.CoroutineDispatcher,kotlinx.coroutines.CoroutineDispatcher,androidx.work.WorkManager,me.ash.reader.domain.service.AccountService,me.ash.reader.domain.data.SyncLogger,me.ash.reader.domain.service.bypass.BypassPrefetcher)void
+    => type (ERROR parameter type): RssHelper
+
+If type 'RssHelper' is a generated type, check above for compilation errors that may have prevented the type from being generated. Otherwise, ensure that type 'RssHelper' is on your classpath.
+
+> Task :app:kspGooglePlayDebugKotlin FAILED
+> Task :app:copyRoomSchemas NO-SOURCE
+
+FAILURE: Build completed with 3 failures.
+
+1: Task failed with an exception.
+-----------
+* What went wrong:
+Execution failed for task ':app:kspFdroidDebugKotlin'.
+> A failure occurred while executing com.google.devtools.ksp.gradle.KspAAWorkerAction
+   > KSP failed with exit code: PROCESSING_ERROR
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+==============================================================================
+
+2: Task failed with an exception.
+-----------
+* What went wrong:
+Execution failed for task ':app:kspGithubDebugKotlin'.
+> A failure occurred while executing com.google.devtools.ksp.gradle.KspAAWorkerAction
+   > KSP failed with exit code: PROCESSING_ERROR
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+==============================================================================
+
+3: Task failed with an exception.
+-----------
+* What went wrong:
+Execution failed for task ':app:kspGooglePlayDebugKotlin'.
+> A failure occurred while executing com.google.devtools.ksp.gradle.KspAAWorkerAction
+   > KSP failed with exit code: PROCESSING_ERROR
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+==============================================================================
+
+BUILD FAILED in 45s
+103 actionable tasks: 73 executed, 30 up-to-date
